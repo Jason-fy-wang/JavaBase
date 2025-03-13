@@ -6,7 +6,7 @@
 
     <groupId>com.wk.demo</groupId>
     <artifactId>Servlet3</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>war</packaging>
 
     <name>Servlet3 Maven Webapp</name>

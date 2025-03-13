@@ -6,7 +6,7 @@
 
   <groupId>com.wk.demo</groupId>
   <artifactId>BaseRPC</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.0</version>
 
   <name>BaseRPC</name>
   <!-- FIXME change it to the project's website -->

@@ -5,15 +5,13 @@
     <parent>
         <artifactId>Java-base-project</artifactId>
         <groupId>com.wk.demo</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>ZabbixClient</artifactId>
 
     <name>ZabbixClient</name>
-    <!-- FIXME change it to the project's website -->
-    <url>http://www.example.com</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -25,26 +23,21 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>test</scope>
         </dependency>
         <!--send msg to zabbix-->
         <dependency>
             <groupId>io.github.hengyunabc</groupId>
             <artifactId>zabbix-sender</artifactId>
-            <version>0.0.5</version>
         </dependency>
         <!--get msg from zabbix-->
         <dependency>
             <groupId>io.github.hengyunabc</groupId>
             <artifactId>zabbix-api</artifactId>
-            <version>0.0.2</version>
         </dependency>
         <!--对api的进一步封装-->
         <dependency>
             <groupId>com.github.0312birdzhang</groupId>
             <artifactId>Zabbix4j</artifactId>
-            <version>0.1.9</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.slf4j</groupId>
